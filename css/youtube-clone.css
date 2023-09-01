@@ -8,11 +8,19 @@ body {
 }
 
 div, section {
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+button {
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+    border: 1px solid blanchedalmond;
 }
 
 main {
-    width: 1900px;
+    width: 1700px;
     margin: auto;
 
     display: flex;
@@ -59,9 +67,17 @@ header {
     border: none;
 }
 
+.fa-bars:hover {
+    cursor: pointer;
+}
+
 #youtube-logo {
     height: 100px;
     width: 150px;
+}
+
+#youtube-logo:hover {
+    cursor: pointer;
 }
 
 .centerh {
@@ -93,13 +109,225 @@ header {
 
 #query {
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     border: none;
     outline: none;
+    margin: 15px;
 }
 
  
+#rg {
+    width: 50px;
+    height: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+#rg:hover {
+    cursor: pointer;
+}
+
+.mic {
+    flex-basis: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-microphone {
+    width: 60px;
+    height: 60px;
+    background-color: #D3D3D3;
+    border: 1px solid #D3D3D3;
+    border-radius: 100%;
+}
+
+.fa-video {
+    flex-basis: 30%;
+    background-color: transparent;
+    border: none;
+}
+
+.fa-bell {
+    flex-basis: 40%;
+    background-color: transparent;
+    border: none;
+}
+
+.fa-user {
+    flex-basis: 30%;
+    background-color: transparent;
+    border: none;
+}
+
+.content-box {
+    width: 1700px;
+    display: flex;
+}
+
+.main-content {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-box {
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.creater-function {
+    height: 80px;
+    display: flex;
+}
+
+.creater {
+    flex-basis: 20%;
+    display: flex;
+
+    
+}
+
+.c-blank {
+    flex-basis: 30%;
+}
+
+.function {
+    flex-basis: 50%;
+}
+
+#creater-l {
+    flex-basis: 30%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.creater-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.creater-c {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.creater-r {
+    flex-basis: 30%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.word-top {
+    flex-basis: 30%;
+}
+
+.word-bottom {
+    flex-basis: 70%;
+}
+
+#subscript {
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.function {
+    display: flex;
+    align-items: center;
+}
+
+.lb-con, .of-con{
+    display: flex;
+    flex-basis: 30%;   
+}
+
+.share-con, .clip-con, .save-con {
+    flex-basis: 15%;
+} 
+
+.dot3-con {
+    flex-basis: 10%;
+}
+
+.lb-con, .of-con, .share-con, .clip-con, .save-con, .dot3-con {
+    border-radius: 19px;
+    height: 40px;
+    margin: 5px;
+    background-color: #D3D3D3;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-thumbs-up, .fa-share, .of-button, .clip-button, .fa-download, .fa-list-ul {
+    width: 100px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.fa-thumbs-down {
+    width: 50px;
+    border-radius: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+.ment {
+    width: 1280px;
+    height: 130px;
+
+    border-radius: 20px;
+    background-color: #D3D3D3;
+}
+
+.comment-con {
+    display: flex;
+    height: 50px;
+}
+
+.top-box > button {
+    margin: 4px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#totoro {
+    margin: 5px;
+    border-radius: 8px;
+}
+
+.small-video {
+    display: flex;
+}
+
+.shorts {
+    margin: 10px;
+    border-top: 1px solid #D3D3D3;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
 
 
 
