@@ -3,135 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>youtube-clone</title>
+    <title>Youtube</title>
 
     <link rel="stylesheet" href="css/youtube-clone.css">
-    <script src="https://kit.fontawesome.com/27d1f811dc.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e5fede6c09.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-            <section class="lefth">
-                <section class="lefth-l">
-                    <form action="#">
-                        <button class="fa-solid fa-bars"></button>
-                    </form>
-                </section>
-                <section class="lefth-r">
-                    <form>
-                        <img src="../images/youtube-logo.png" id="youtube-logo">
-                    </form>
-                </section>
-            </section>
-            <section class="centerh">
-                <section class="center-bar">
-                    <section class="search-bar">
-                        <section class="search">
-                            <input type="search" id="query" name="query" autocomplete="off" placeholder="검색어를 입력해주세요.">
-                            <button type="submit" id="rg" class="fa-solid fa-magnifying-glass"></button>
-                        </section>
-                    </section>
-                    <section class="mic">
-                        <button class="fa-solid fa-microphone"></button>
-                    </section>
-                </section>
-            </section>
-                <section class="righth">
-                    <button class="fa-solid fa-video"></button>
-                    <button class="fa-regular fa-bell"></button>
-                    <button class="fa-solid fa-user"></button>
-                </section>
-    </header>
-    <main>
-        <section class="content-box">
-            <section class="main-content">
-                <iframe width="1280" height="720" src="https://www.youtube.com/embed/V7v3z09m07s" title="음악은 더 나은 기분으로 작업하는 데 도움이 됩니다 | 3 hour lofi hip hop mix / lofi study / work / chill beats" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p style="font-weight: bold; font-size: large;">음악은 더 나은 기분으로 작업하는 데 도움이 됩니다 | 3 hour lofi hip hop mix / lofi study / work / chill beats</p>
-                <section class="creater-function">
-                    <section class="creater">
-                        <section id="creater-l">
-                            <button class="creater-img"></button>
-                        </section>
-                        <section class="creater-c">
-                            <section class="word-top">
-                                <pre style="font-weight: bold; line-height: 3px;">Lofi 코딩</pre>
-                            </section>
-                            <section class="word-bottom">
-                                <pre style="font-size: small;">구독자 15만명</pre>
-                            </section>
-                        </section>
-                        <section class="creater-r">                           
-                            <button type="submit" id="subscript">구독</button>                      
-                        </section>
-                    </section>
-                    <section class="c-blank"></section>
-                    <section class="function">
-                        <section class="lb-con">
-                            <button class="fa-regular fa-thumbs-up">1.1만</button>
-                            <button class="fa-regular fa-thumbs-down"></button>
-                        </section>
-                        <section class="share-con">
-                            <button class="fa-solid fa-share"> 공유</button>
-                        </section>
-                        <section class="of-con">
-                            <button class="of-button">오프라인저장</button>
-                        </section>
-                        <section class="clip-con">
-                            <button class="clip-button">클립</button>
-                        </section>
-                        <section class="save-con">
-                            <button class="fa-solid fa-download">저장</button>
-                        </section>
-                        <section class="dot3-con">
-                            <button class="fa-solid fa-list-ul"></button>
-                        </section>
-                    </section>
-                </section>
-                <section>
-                    <button class="ment">
-                        <pre>
-    조회수 82만회  1년 전  코딩 / 과제 할 때 집중 해서 듣기 좋은 음악 | beats to coding to
-    💕If you like the video, please give me a thumbs up and don't forget to subscribe to my channel : 
-      / lofi코딩  
-    🔔 Click the Bell to get notified when I upload! …
-                        </pre>
-                    </button>
-                </section>
-                <section class="comment-con">
-                    <div>
-                        <p>댓글 189개</p>
-                    </div>
-                    <button class="fa-solid fa-list-ul"> 정렬기준</button>
-                </section>
-            </section>
-            <aside class="aside-box">
-                <section class="top-box">
-                    <button>모두</button>
-                    <button>Lofi 코딩 제공</button>
-                    <button>관련 콘텐츠</button>
-                </section>
-                <section class="small-video">
-                    <a href="https://www.youtube.com/watch?v=l_iXA_KZSEk">
-                        <img src="https://i.ytimg.com/vi/l_iXA_KZSEk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDc-1Gp48J3f8nHXf2gEB7y35rGag" id="totoro">
-                    </a>
-                  <span>
-                    <label>지브리 ost 지브리 오르골</label><br>
-                    <label>모음 기분 좋은 지브리 음악</label><br>
-                    <label style="font-size: small;">Peaceful Melody</label><br>
-                    <label style="font-size: small;">조회수 75만회 . 5개월 전</label>
-                  </span>
-                </section>
+    
+    <nav>
+        <section>
+            <button class="fa-solid fa-bars"></button>
+            <a>
+                <img src="../images/youtube-logo.png" id="logo">
+            </a>
+        </section>
 
-                <section class="shorts">
-                    <span>
-                        <label style="font-weight: bold;">Shorts</label>
-                    </span>
-                    <section class="shorts-video">
-                        
-                    </section>
+        <section>
+            <section class="search-section">
+                <form action="#" name="search-form">
+                    <fieldset>
+                        <input type="search" placeholder="검색" >
+                        <button class="fa-solid fa-magnifying-glass"></button>
+                    </fieldset>
+                </form>
+                <div class="button-wrapper">
+                    <button class="fa-solid fa-microphone"></button>
+                </div>
+            </section>
+        </section>
+
+        <section>
+            <button class="fa-solid fa-video"></button>
+            <button class="fa-regular fa-bell"></button>
+            <button class="fa-solid fa-user"></button>
+        </section>
+
+    </nav>
+
+    <main>
+        
+        <section>
+            <div class="iframe-box">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/GHS2FjLnTLs?si=L9y4wlG32ffMyGgU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="content-box">
+                <div>
+                    <h1>5명의 쫄보가 공포게임을 했다</h1>
+
+                    <div class="content-button-box">
+
+
+                        <section class="author-info-section">
+                            <div class="img-wrapper">
+                                <img src="../images/img/sample.jpg">
+                            </div>
+    
+                            <div class="author-info">
+                                <p id="author-name">우주하마</p>
+                                <p id="subscriber">구독자 175만명</p>
+                            </div>
+    
+                            <button id="subscribe-btn">구독</button>
+                        </section>
+
+                        <section class="etc-button-section">
+                            <div class="like-unlike-btn">
+                                <button class="fa-regular fa-thumbs-up">4.8천</button>
+                                <button class="fa-regular fa-thumbs-down"></button>
+                            </div>
+
+                            <div class="share-btn">
+                                <button class="fa-solid fa-share">&nbsp;&nbsp;공유</button>
+                            </div>
+
+                            <div class="save-btn">
+                                <button class="fa-solid fa-download">&nbsp;&nbsp;오프라인 저장</button>
+                            </div>
+
+                            <button id="etc-btn" class="fa-solid fa-list-ul"></button>
+                        </section>
+
+                    </div>
+
+                </div>
+            </div>  
+        
+        </section>
+
+        <section>
+            <div class="side-btn-box">
+                <button>모두</button>
+                <button>우주하마 제공</button>
+                <button>관련 콘텐츠</button>
+            </div>
+
+            <div>
+                <section class="side-video-box">
+                    <iframe style="border-radius: 10px;" width="40%" height="auto" src="https://www.youtube.com/embed/gMTgZLz0D0E?si=tBoCU70VRFnPgZZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="side-video-box-content">
+                        <h2>시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다</h2>
+                        <p>우주하마</p>
+                        <p>조회수 5.5만회 · 4시간 전</p>
+                    </div>
                 </section>
-            </aside>
+                <section class="side-video-box">
+                    <iframe style="border-radius: 10px;" width="40%" height="auto" src="https://www.youtube.com/embed/gMTgZLz0D0E?si=tBoCU70VRFnPgZZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="side-video-box-content">
+                        <h2>시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다</h2>
+                        <p>우주하마</p>
+                        <p>조회수 5.5만회 · 4시간 전</p>
+                    </div>
+                </section>
+                <section class="side-video-box">
+                    <iframe style="border-radius: 10px;" width="40%" height="auto" src="https://www.youtube.com/embed/gMTgZLz0D0E?si=tBoCU70VRFnPgZZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="side-video-box-content">
+                        <h2>시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다</h2>
+                        <p>우주하마</p>
+                        <p>조회수 5.5만회 · 4시간 전</p>
+                    </div>
+                </section>
+                <section class="side-video-box">
+                    <iframe style="border-radius: 10px;" width="40%" height="auto" src="https://www.youtube.com/embed/gMTgZLz0D0E?si=tBoCU70VRFnPgZZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="side-video-box-content">
+                        <h2>시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다</h2>
+                        <p>우주하마</p>
+                        <p>조회수 5.5만회 · 4시간 전</p>
+                    </div>
+                </section>
+                <section class="side-video-box">
+                    <iframe style="border-radius: 10px;" width="40%" height="auto" src="https://www.youtube.com/embed/gMTgZLz0D0E?si=tBoCU70VRFnPgZZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="side-video-box-content">
+                        <h2>시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다</h2>
+                        <p>우주하마</p>
+                        <p>조회수 5.5만회 · 4시간 전</p>
+                    </div>
+                </section>
+                <section class="side-video-box">
+                    <iframe style="border-radius: 10px;" width="40%" height="auto" src="https://www.youtube.com/embed/gMTgZLz0D0E?si=tBoCU70VRFnPgZZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="side-video-box-content">
+                        <h2>시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다</h2>
+                        <p>우주하마</p>
+                        <p>조회수 5.5만회 · 4시간 전</p>
+                    </div>
+                </section>
+                <section class="side-video-box">
+                    <iframe style="border-radius: 10px;" width="40%" height="auto" src="https://www.youtube.com/embed/gMTgZLz0D0E?si=tBoCU70VRFnPgZZR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <div class="side-video-box-content">
+                        <h2>시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다 시청자도 개열받는 팬게임 개발자 집주소 삽니다</h2>
+                        <p>우주하마</p>
+                        <p>조회수 5.5만회 · 4시간 전</p>
+                    </div>
+                </section>
+            </div>
         </section>
     </main>
-
 </body>
 </html>
